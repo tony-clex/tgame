@@ -1,15 +1,15 @@
 const random = Math.floor(Math.random() * 50 + 1);
-console.log(random)
+console.log(random);
 
-const check = document.getElementById('select')
-const enter = document.getElementById('sub')
-const gtreat = document.getElementById('result')
+const check = document.getElementById("select");
+const enter = document.getElementById("sub");
+const gtreat = document.getElementById("result");
 
-enter.addEventListener('click', () => {
- const guess =check.Value;;
-    if (guess === random) {
-    gtreat.textContent = 'you got it!'
+enter.addEventListener("click", () => {
+  const guess = check.Value;
+  if (guess === random) {
+    gtreat.textContent = "you got it!";
   } else {
-    gtreat.textContent = 'keep trying'
+    gtreat.textContent = "keep trying";
   }
-})
+});
