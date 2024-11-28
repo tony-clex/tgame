@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-</body>
+  </head>
+  <body>
+      <section class="container">
+        <div class="tony">
+          <h1>Welcome to Montana's Number guessing game</h1>
+          <form>
+            <label>
+              <input
+                type="text"
+                id="select"
+                class="formcontol"
+                placeholder="guess a number"
+                required
+              />
+            </label>
+          </form>
+          <button type="button" id="sub">check</button>
+        <p id="result"></p>
+        </div>
+      </section>
+      <script src="./javascript/guessing.js"></script>
+  </body>
 </html>
